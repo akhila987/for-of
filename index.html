@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var a="hello";
+var b="";
+for (i of a){
+    b=i+b;
+    
+}
+console.log(b);
+
+var arr=[10,22,15,17,19,18,24,26,38];
+
+for(i in arr){
+    if(arr[i]%2==0){
+         console.log(arr[i]);
+    }
+}
+
+let obj={
+    a:"html",
+    b:"css",
+    c:"js",
+    d:"react"
+};
+for(i of Object.keys(obj)){
+    console.log(i,"--",obj[i]);
+}
+   
+
+    </script>
+</body>
+</html>
